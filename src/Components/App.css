@@ -1,0 +1,241 @@
+.App {
+  margin: 0 auto;
+}
+
+/* -------TOPBAR---------- */
+
+.topBar {
+  background-color: #d85968;
+}
+
+.navbar{
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.link {
+  text-decoration: none;
+}
+
+.navLink {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px 5px;
+}
+
+/* ---------STORIES LIST----------- */
+
+
+.storiesWrapper{
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.storyCardWrapper{
+  margin: 20px 0;
+}
+
+.storyCard{
+  width: 265px;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.storyAuthor {
+  font-size: 2rem;
+  color: #574f4f;
+  margin-bottom: 10px;
+}
+
+.storyCountry {
+  font-size: 1.6rem;
+  color: #574f4f;
+  margin-bottom: 10px;
+}
+
+.storySnippet {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #574f4f;
+  margin-bottom: 10px;
+}
+
+.pixPlaceHolder{
+  width: 245px;
+  height: 179px;
+  background-color: #9aadd2;
+}
+
+/* ---------SINGLE STORY VIEW------------ */
+
+.storyViewWrapper{
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+.storyViewTitle{
+  font-size: 2rem;
+  color: #574f4f;
+  margin-bottom: 20px;
+}
+
+.storyViewAuthor {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #574f4f;
+  margin-bottom: 10px;
+}
+
+.storyViewCountry {
+  font-size: 1.6rem;
+  color: #574f4f;
+  margin-bottom: 20px;
+}
+
+.storyViewBody {
+  font-size: 1.4rem;
+  color: #574f4f;
+  margin-bottom: 10px;
+  line-height: 2.5rem;
+}
+
+/* ------------Add Story Form--------------- */
+
+.addStoryFormWrapper{
+  max-width: 600px; 
+  margin: 20px auto;
+}
+
+.addStoryTitle {
+  font-size: 3rem;
+  color: #574f4f;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inputBox{
+  margin-bottom: 20px;
+  height: 40px;
+  font-size: 1.6rem;
+  color: #574f4f;
+}
+
+.submitBtn {
+  width: 125px;  
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #574f4f;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid #574f4f;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* ---------------Admin---------------- */
+
+.adminNavbar{
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 auto;
+}
+
+.navAdminLink {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #d85968;
+  border-radius: 5px;
+}
+
+.adminText {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #574f4f;
+  margin: 20px 0;
+}
+
+.signInForm{
+  width: 175px;
+  margin: auto;
+}
+
+.formInput{
+  margin-bottom: 10px;
+  height: 30px;
+  font-size: 1.6rem;
+  color: #574f4f;
+}
+
+.signInBtn{
+  width: 200px;  
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #574f4f;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #574f4f;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.adminStoriesListLink {
+  text-decoration: none;
+}
+
+.adminStoriesList{
+  font-size: 2rem;
+  text-align: center;
+  color: #574f4f;
+  margin: 20px 0;
+}
+
+/* ------------Update Form--------------- */
+
+.updateForm {
+  max-width: 600px;;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.adminContent {
+  max-width: 600px;
+  margin: 0 auto;
+
+}
