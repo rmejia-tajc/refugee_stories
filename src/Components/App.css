@@ -5,18 +5,18 @@
 /* -------TOPBAR---------- */
 
 .topBar {
-  background-color: #d85968;
+  background-image: linear-gradient(45deg, #D15C79 0%, #F8CFD0 99%, #F8CFD0 100%);
 }
 
 .navbar{
-  max-width: 1024px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin: 0 auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .navbar {
     flex-direction: column;
     align-items: center;
@@ -36,12 +36,22 @@
 }
 
 .navLink {
-  font-size: 2rem;
-  font-weight: bold;
-  color: white;
+  font-size: 1.8rem;
+  /* font-weight: bold; */
+  color: #F8CFD0;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px 10px;
   margin: 10px 5px;
+  /* background-color: #BD8F96;
+  border-radius: 8px;
+  border: 1.5px solid #F8CFD0; */
+}
+
+.navLink:hover {
+  /* color: #BD8F96;
+  background-color: #F8CFD0;
+  border: 1.5px solid #BD8F96; */
+  color: #ffffff;
 }
 
 /* ---------STORIES LIST----------- */

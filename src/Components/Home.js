@@ -7,24 +7,24 @@ function Home() {
   return (
     <div className="home-wrapper">    
 
-      <section className="banner">
+      <section className="cta">
 
-        <div className="content">
+        <div className="cta-content">
 
-          <h1>Refugees</h1>
+          <h1>Refugee Stories</h1>
 
           <p className="words">
-              Doaa is a 19-year-old aspiring student who was forced by the war to live a 
-              grinding existence with her family in exile. 
-          </p><p className="words">
-              Without a work permit in Egypt, I struggled through day shifts for low wages. As the months passed, I was getting more and more scared. One day, a motorcycle gang tried to kidnap me on the street.”
+            A friends of mine, one fo the first tech CEOs in Afghanistan, in 2014, was needing to pay her employees, young women. But their uncles, brothers and husbands would not let them open bank accounts. The men want to control everything there and paypall was banned and all that. So, she paid them in Bitcoin. They would keep their bitcoins in a hot wallet on their phones and come home and their husbands would not have any idea where the money was, etc.
+          </p>
+          <p className="words">
+            One of these young women had to flee Afghanistan. She was a victim of political violence and had to leave. She went on foot as a refugee through Iran, Turkey, and eventually settled in Germany. During this time, her Bitcoin, which she took with her, had accumulated in value quite a bit and she was entirely able to rebuild her life in Germany.
           </p>
 
           <Link className="primary-button" to="/stories">Read More</Link>
 
         </div>
 
-        <div className= "img-pic"></div>
+        <div className= "cta-img"></div>
 
       </section>
 
