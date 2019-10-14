@@ -37,20 +37,13 @@
 
 .navLink {
   font-size: 1.8rem;
-  /* font-weight: bold; */
   color: #F8CFD0;
   text-decoration: none;
   padding: 5px 10px;
   margin: 10px 5px;
-  /* background-color: #BD8F96;
-  border-radius: 8px;
-  border: 1.5px solid #F8CFD0; */
 }
 
 .navLink:hover {
-  /* color: #BD8F96;
-  background-color: #F8CFD0;
-  border: 1.5px solid #BD8F96; */
   color: #ffffff;
 }
 
@@ -58,78 +51,85 @@
 
 
 .storiesWrapper{
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  flex-wrap: wrap;;
 }
 
 .storyCardWrapper{
-  margin: 20px 0;
+  margin: 20px 10px 0 10px;
+  padding: 1rem 1rem .8rem 1rem;
+  background-image: linear-gradient(45deg, #c7daff 0%, #dbe7ff 39%, #eef3ff 100%);
+  /* background-color: #dbe7ff; */
+  border-radius: 7px;
 }
 
 .storyCard{
-  width: 265px;
-  padding: 10px;
-  margin: 0 5px;
+  width: 33rem;
 }
 
 .storyAuthor {
+  font-weight: bold;
   font-size: 2rem;
-  color: #574f4f;
-  margin-bottom: 10px;
+  color: #3F4652;
+  height: 3rem;
 }
 
 .storyCountry {
   font-size: 1.6rem;
-  color: #574f4f;
-  margin-bottom: 10px;
+  color: #3F4652;
+  height: 3rem;
 }
 
 .storySnippet {
   font-size: 1.4rem;
   line-height: 2rem;
-  color: #574f4f;
-  margin-bottom: 10px;
+  color: #3F4652;
+  height: 5rem;
 }
 
-.pixPlaceHolder{
-  width: 245px;
-  height: 179px;
+.storyPix{
+  width: 100%;
   background-color: #9aadd2;
+  border-radius: 7px;
 }
 
 /* ---------SINGLE STORY VIEW------------ */
 
 .storyViewWrapper{
   max-width: 600px;
-  margin: 20px auto;
-  padding: 0 10px;
+  margin: 0 auto;
+  padding: 2.5rem 10px;
+  /* border: 1px solid red; */
 }
 
 .storyViewTitle{
-  font-size: 2rem;
-  color: #574f4f;
-  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 3rem;
+  color: #3F4652;
+  margin-bottom: 1.5rem;
 }
 
 .storyViewAuthor {
-  font-size: 1.6rem;
-  font-weight: bold;
-  color: #574f4f;
-  margin-bottom: 10px;
+  font-size: 2.2rem;
+  /* font-weight: bold; */
+  color: #3F4652;
+  margin-bottom: 1.5rem;
 }
 
 .storyViewCountry {
   font-size: 1.6rem;
-  color: #574f4f;
-  margin-bottom: 20px;
+  color: #3F4652;
+  padding-bottom: 2rem;
+  border-bottom: .5rem solid #dbe7ff;
+  margin-bottom: 2rem;
 }
 
 .storyViewBody {
   font-size: 1.4rem;
-  color: #574f4f;
+  color: #3F4652;
   margin-bottom: 10px;
   line-height: 2.5rem;
 }
@@ -143,7 +143,7 @@
 
 .addStoryTitle {
   font-size: 3rem;
-  color: #574f4f;
+  color: #3F4652;
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
@@ -153,18 +153,18 @@
   margin-bottom: 20px;
   height: 40px;
   font-size: 1.6rem;
-  color: #574f4f;
+  color: #3F4652;
 }
 
 .submitBtn {
   width: 125px;  
   font-size: 1.4rem;
   font-weight: bold;
-  color: #574f4f;
+  color: #3F4652;
   text-decoration: none;
   padding: 10px;
   margin: 0 auto;
-  border: 1px solid #574f4f;
+  border: 1px solid #3F4652;
   background-color: white;
   border-radius: 5px;
 }
@@ -180,26 +180,30 @@
 }
 
 .navAdminLink {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: white;
+  font-size: 1.8rem;
+  color: #ffffff;
   text-decoration: none;
-  padding: 10px;
-  margin: 20px 0;
+  padding: 8px 20px;
   background-color: #d85968;
-  border-radius: 5px;
+  border-radius: 7px;
+  border: 2px solid #d85968;
+  margin: 20px 0;
+}
+
+.navAdminLink:hover {
+  color: #d85968;
+  background-color: #ffffff;
 }
 
 .adminText {
   font-size: 2rem;
-  font-weight: bold;
   text-align: center;
-  color: #574f4f;
+  color: #3F4652;
   margin: 20px 0;
 }
 
 .signInForm{
-  width: 175px;
+  width: 200px;
   margin: auto;
 }
 
@@ -207,18 +211,17 @@
   margin-bottom: 10px;
   height: 30px;
   font-size: 1.6rem;
-  color: #574f4f;
+  color: #3F4652;
 }
 
 .signInBtn{
   width: 200px;  
   font-size: 1.4rem;
-  font-weight: bold;
-  color: #574f4f;
+  color: #3F4652;
   text-decoration: none;
   padding: 10px;
   margin-top: 20px;
-  border: 1px solid #574f4f;
+  border: 1px solid #3F4652;
   background-color: white;
   border-radius: 5px;
 }
@@ -230,7 +233,7 @@
 .adminStoriesList{
   font-size: 2rem;
   text-align: center;
-  color: #574f4f;
+  color: #3F4652;
   margin: 20px 0;
 }
 

@@ -19,7 +19,7 @@ const Stories = props => {
                                 <p className="storyCountry">{story.country}</p>
                                 <p className="storySnippet">{story.snippet}</p>
                                 {/* <div className="pixPlaceHolder"></div> */}
-                                <img src={story.url_thumbnail} alt="refugee img"/>
+                                <img className="storyPix" src={story.url_thumbnail} alt="refugee img"/>
                             </div>
                         </div>
                     </Link>
