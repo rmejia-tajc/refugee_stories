@@ -34,7 +34,7 @@ class AddStoryForm extends React.Component {
 
                 <form className="updateForm">
 
-                    <input className="inputBox"
+                    <input className="formInput"
                         onChange={this.handleChanges}
                         type='text'
                         name='author'
@@ -42,7 +42,7 @@ class AddStoryForm extends React.Component {
                         placeholder=' Your Name'
                     />
 
-                    <input className="inputBox"
+                    <input className="formInput"
                         onChange={this.handleChanges}
                         type='text'
                         name='country'
@@ -50,7 +50,7 @@ class AddStoryForm extends React.Component {
                         placeholder=' Your Country of Origin'
                     />
 
-                    <input className="inputBox"
+                    <input className="formInput"
                         onChange={this.handleChanges}
                         type='text'
                         name='title'
@@ -58,7 +58,7 @@ class AddStoryForm extends React.Component {
                         placeholder=' Your Story Title'
                     />
 
-                    <input className="inputBox"
+                    <input className="formInput"
                         onChange={this.handleChanges}
                         type='text'
                         name='body'

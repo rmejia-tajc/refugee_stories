@@ -34,7 +34,7 @@ console.log("test from AllStories.js", this.props.allStories)
 		return (
 			<>
 				<h2 className="adminText">List of All Stories</h2>
-					<ul>
+					<ul className="adminStoriesListUl">
 						{this.props.allStories.map(allStory => {
 
 							return (

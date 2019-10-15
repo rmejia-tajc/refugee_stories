@@ -92,7 +92,7 @@
 
 .storyPix{
   width: 100%;
-  background-color: #9aadd2;
+  background-color: #dbe7ff;
   border-radius: 7px;
 }
 
@@ -181,54 +181,78 @@
 
 .navAdminLink {
   font-size: 1.8rem;
-  color: #ffffff;
+  color: #3F4652;
   text-decoration: none;
   padding: 8px 20px;
-  background-color: #d85968;
+  background-color: #dbe7ff;
   border-radius: 7px;
-  border: 2px solid #d85968;
+  border: 2px solid #dbe7ff;
   margin: 20px 0;
 }
 
 .navAdminLink:hover {
-  color: #d85968;
+  color: #3F4652;
   background-color: #ffffff;
 }
 
+.adminContent {
+  max-width: 600px;
+  margin: 0 auto;
+
+}
+
 .adminText {
-  font-size: 2rem;
+  font-size: 3rem;
+  line-height: 4rem;
   text-align: center;
   color: #3F4652;
   margin: 20px 0;
 }
 
 .signInForm{
-  width: 200px;
+  padding: 0 10px 10px 10px;
   margin: auto;
 }
 
 .formInput{
+  width: 100%;
+  padding: 1rem;
   margin-bottom: 10px;
-  height: 30px;
   font-size: 1.6rem;
   color: #3F4652;
+  border: 2px solid #d85968;
+  border-radius: 7px;
+  outline: none;
 }
 
-.signInBtn{
-  width: 200px;  
-  font-size: 1.4rem;
+.submitBtn{
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
   color: #3F4652;
   text-decoration: none;
   padding: 10px;
   margin-top: 20px;
-  border: 1px solid #3F4652;
-  background-color: white;
-  border-radius: 5px;
+  border: 2px solid #dbe7ff;
+  background-color: #dbe7ff;
+  border-radius: 7px;
+  outline: none;
+}
+
+.submitBtn:hover {
+  color: #3F4652;
+  background-color: #ffffff;
+}
+
+.adminStoriesListUl {
+  border-top: .5rem solid #dbe7ff;
+  padding-top: 1rem;
 }
 
 .adminStoriesListLink {
   text-decoration: none;
 }
+
 
 .adminStoriesList{
   font-size: 2rem;
@@ -237,18 +261,22 @@
   margin: 20px 0;
 }
 
+.adminStoriesList:hover {
+  color: #d85968;
+}
+
 /* ------------Update Form--------------- */
 
 .updateForm {
-  max-width: 600px;;
+  max-width: 600px;
+  padding: 0 10px 10px 10px;
   display: flex;
   flex-direction: column;
 }
 
-
-
-.adminContent {
-  max-width: 600px;
-  margin: 0 auto;
-
+.updateForm h5 {
+  font-size: 1.2rem;
+  padding-bottom: .5rem;
 }
+
+
