@@ -25,7 +25,7 @@ class Signin extends React.Component {
 		return (
 			<form className="signInForm" onSubmit={this.handleSubmit}>
 				<h2 className="adminText">Sign In</h2>
-				<div>
+				<div className="input-field">
 					<input className="formInput"
 						name='username'
 						value={this.state.username}
@@ -34,7 +34,7 @@ class Signin extends React.Component {
 						placeholder=" Username"
 					/>
 				</div>
-				<div>
+				<div className="input-field">
 					<input className="formInput"
 						name='password'
 						value={this.state.password}
@@ -44,7 +44,7 @@ class Signin extends React.Component {
 					/>
 				</div>
 				<div>
-					<button className="signInBtn" type='submit'>Sign In</button>
+					<button className="submitBtn" type='submit'>Sign In</button>
 				</div>
 			</form>
 		);

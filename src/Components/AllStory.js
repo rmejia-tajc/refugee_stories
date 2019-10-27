@@ -30,8 +30,6 @@ class AllStory extends React.Component {
     };
 
     updateAllStory = event => {
-        console.log("event is getting tiggered")
-        console.log(this.updateStory)
         event.preventDefault();
         this.props.updateStory(this.state, this.state.id);
         this.props.history.push('/admin/all-stories');

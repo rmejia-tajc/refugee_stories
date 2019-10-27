@@ -33,22 +33,24 @@
 
 .primary-button {
   font-size: 1.8rem;
-  color: #ffffff;
+  color: #3F4652;
   text-decoration: none;
   padding: 8px 20px;
-  background-color: #d85968;
+  background-color: #dbe7ff;
   border-radius: 7px;
-  border: 2px solid #d85968;
+  border: 2px solid #dbe7ff;
 }
 
 .primary-button:hover {
-  color: #d85968;
+  color: #3F4652;
   background-color: #ffffff;
 }
 
 .cta-img {
   width: 50%;
-  background-image: url('../assets/Doaa.png');
+  height: 90vh;
+  /* background: linear-gradient(rgba(216, 89, 104, 0.8), rgba(219, 231, 255, 0.8)), url('../assets/Doaa.png'); */
+  background-image: url('../assets/refugee_square.jpg');
   background-position: center top;
   background-size: cover;
 }
