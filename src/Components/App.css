@@ -61,8 +61,8 @@
 .storyCardWrapper{
   margin: 20px 10px 0 10px;
   padding: 1rem 1rem .8rem 1rem;
-  background-image: linear-gradient(45deg, #c7daff 0%, #dbe7ff 39%, #eef3ff 100%);
-  /* background-color: #dbe7ff; */
+  background-color: #dbe7ff;
+  background-image: linear-gradient(45deg, #dbe7ff 0%,  #f1f4fd 100%);
   border-radius: 7px;
 }
 
